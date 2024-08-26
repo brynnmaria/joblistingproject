@@ -1,0 +1,91 @@
+
+body{
+  font-family: Arial;
+
+}
+
+
+#container{
+  background-color: white;
+  box-shadow: 1px 1px 8px lightgray;
+
+}
+
+
+#container a{
+  text-decoration: none;
+
+}
+
+
+
+.top-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+
+.job-title{
+  margin: 0;
+  color: #5391DF;
+  padding: 25px;
+  width: 100%;
+  
+}
+
+
+.location-date-time{
+  list-style-type: none;
+  display: flex;
+  gap: 8px;
+  margin: 25px;
+  align-items: center;
+  padding-left: 0px;
+
+}
+
+
+.index-info{
+  background-color: #F4F4F4;
+  color: #000000;
+  border-radius: 6px;
+  padding: 10px 12px;
+  display: flex;
+  font-size: 12px;
+  max-height: 15px;
+  white-space: nowrap;
+  
+}
+
+
+.index-summary{
+  text-align: left;
+  font-size: 16px;
+  color: black;
+  padding: 20px 25px;
+  word-wrap: break-word;
+  margin: 0;
+
+}
+
+
+
+
+@media only screen and (max-width: 400px){
+   
+  .location-date-time{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0;
+    
+  }
+
+  .top-container{
+    flex-direction: column;
+    
+  }
+
+}

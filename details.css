@@ -1,0 +1,117 @@
+
+body{
+  font-family: Arial;
+
+}
+
+
+.details-main-container{
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+
+
+.back-text{
+  color: #74A4E4;
+  font-size: 12px;
+
+}
+
+
+.back-text a{
+  text-decoration: none;
+  
+}
+
+
+.details-job-title{
+  color: #000000;
+  padding-top: 20px;
+  padding-bottom: 25px;
+
+}
+
+
+.details-location-date-time{
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  gap: 8px;
+  align-items: center;
+  padding-left: 0;
+  justify-content: flex-start;
+
+}
+
+
+.details-info{
+  background-color: #F4F4F4;
+  color: #000000;
+  border-radius: 6px;
+  padding: 9px 10px;
+  display: flex;
+  flex-direction: row;
+  font-size: 13px;
+  white-space: nowrap;
+
+}
+
+
+.summary-paragraph-container{
+  padding-top: 20px;
+
+}
+
+
+.job-doing-bullets{
+  margin-left: 10px;
+
+}
+
+
+.looking-for-bullets{
+  margin-left: 10px;
+
+}
+
+
+.nice-to-have-bullets{
+  margin-left: 10px;
+
+}
+
+
+.what-we-offer-bullets{
+  margin-left: 10px;
+
+}
+
+
+#apply-button{
+  background-color: #4A89DC;
+  color: white;
+  border-radius: 6px;
+  padding: 12px 16px;
+  font-size: 12px;
+  font-family: Arial;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+
+@media only screen /* and (max-width: 500px) */ and (max-width: 400px){
+   
+  .details-main-container{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  #apply-button{
+    margin-top: 20px;
+  }
+
+}
