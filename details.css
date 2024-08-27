@@ -26,7 +26,7 @@ body{
 
 
 .details-job-title{
-  color: #000000;
+  color: #3A434A;
   padding-top: 20px;
   padding-bottom: 25px;
 
@@ -47,7 +47,7 @@ body{
 
 .details-info{
   background-color: #F4F4F4;
-  color: #000000;
+  color: #3A434A;
   border-radius: 6px;
   padding: 9px 10px;
   display: flex;
